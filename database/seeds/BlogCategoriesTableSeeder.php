@@ -24,6 +24,7 @@ class BlogCategoriesTableSeeder extends Seeder {
                 'parent_id' => $parentId,
             ];
         }
+
         DB::table( 'blog_categories' )->insert( $categories );
     }
 }
